@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AllInOne/static/css/main.02d0282d.css",
-    "main.js": "/AllInOne/static/js/main.07159a1e.js",
+    "main.css": "/AllInOne/static/css/main.7e543a87.css",
+    "main.js": "/AllInOne/static/js/main.22f847d5.js",
     "index.html": "/AllInOne/index.html",
-    "main.02d0282d.css.map": "/AllInOne/static/css/main.02d0282d.css.map",
-    "main.07159a1e.js.map": "/AllInOne/static/js/main.07159a1e.js.map"
+    "main.7e543a87.css.map": "/AllInOne/static/css/main.7e543a87.css.map",
+    "main.22f847d5.js.map": "/AllInOne/static/js/main.22f847d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.02d0282d.css",
-    "static/js/main.07159a1e.js"
+    "static/css/main.7e543a87.css",
+    "static/js/main.22f847d5.js"
   ]
 }
