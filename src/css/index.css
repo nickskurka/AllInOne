@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Clash+Grotesk:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/**
+ * Global styles and Tailwind CSS imports
+ * Sets up base styling for the entire application
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+    font-family: 'Clash Grotesk', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+    font-family: 'Clash Grotesk', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  * {
+    font-family: 'Clash Grotesk', ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  .tab-button {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:scale-105;
+  }
+
+  .tab-button-active {
+    @apply bg-blue-600 text-white shadow-lg;
+  }
+
+  .tab-button-inactive {
+    @apply bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600;
+  }
+
+  .page-container {
+    @apply min-h-screen bg-light-primary dark:bg-dark-primary text-light-text dark:text-dark-text transition-colors duration-300;
+  }
+
+  .content-area {
+    @apply bg-light-secondary dark:bg-dark-secondary border border-light-border dark:border-dark-border rounded-lg p-6 shadow-sm;
+  }
+}
